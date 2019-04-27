@@ -2,4 +2,49 @@
   box-sizing: border-box;
   margin: 0; }
 
+header {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between; }
+  @media (max-width: 768px) {
+    header .menu {
+      display: flex;
+      flex-wrap: wrap; } }
+  header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+  header a:first-child {
+    color: red; }
+  header .us {
+    margin-left: 10px;
+    margin-right: 10px; }
+    header .us p {
+      color: #718389; }
+    header .us a {
+      text-decoration: none;
+      color: #000; }
+  header .call-us {
+    display: flex; }
+  @media (max-width: 768px) {
+    header .call-us {
+      display: flex;
+      align-items: center; } }
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-wrap: wrap; } }
+section .image {
+  margin-top: 30px;
+  width: 1970px;
+  height: 250px;
+  background: #9b9fa0; }
+
 /*# sourceMappingURL=style.css.map */
