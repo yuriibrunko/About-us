@@ -1,0 +1,114 @@
+
+  .menu__icon {
+   display: none;
+   width: 45px;
+   height: 35px;
+   position: relative;
+   cursor: pointer;
+}
+
+.menu__icon span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #a9e382;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+  top: 13px;
+}
+
+.menu__icon span:nth-child(4) {
+  top: 26px;
+ }
+
+.menu__links-item {
+  
+    display: inline-block;
+    color: #333333;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-left: 30px; 
+    text-decoration: none;
+}
+
+.menu__links-item:hover {
+    color:red;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__links {
+  display: block;  
+}
+
+@media screen and (max-width: 999px) {
+  .menu__icon{
+    display: inline-block;
+    
+  }
+  @media screen and (max-width: 999px) {
+    .conctainer{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    @media screen and (max-width: 999px) {
+      .contact{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        
+      }
+
+  .menu__links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(121, 216, 245, 0.5);
+    z-index: 1000;
+    overflow: auto;
+  }
+  
+  .menu__links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+}
