@@ -2,9 +2,22 @@
   box-sizing: border-box;
   margin: 0; }
 
+.conatainer {
+  width: 1970px;
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 768px) {
+  .conatainer {
+    display: flex;
+    justify-content: center; } }
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column; } }
 header {
   margin-top: 10px;
-  width: 100%;
+  width: 1230px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
