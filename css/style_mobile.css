@@ -93,6 +93,14 @@
         
       }
 
+      @media (max-width: 400px){
+        .menu__links-item{
+          display: block;
+          margin-left: -1350px;
+        }
+      }
+
+
   .menu__links {
     position: fixed;
     display: none;

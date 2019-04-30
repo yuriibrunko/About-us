@@ -15,6 +15,12 @@
             flex-direction: column;
             margin-left: -250px;
             }
+            .img{
+                margin-left: -250px;
+            }
+            .call-us{
+                margin-left: -250px;
+            }
     }
     @media (max-width:768px){
         header{
@@ -95,6 +101,7 @@ section {
 
             @media (max-width: 768px){
                 font-size: 26px;
+                margin-left: -220px;
             }
     
         }
@@ -107,4 +114,162 @@ section {
         }
 
     }
+}
+
+section{
+    @media (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+    }
+    .p3{
+        height: 487px;
+        width: 1230px;
+        margin-left: 400px;
+        margin-top: 100px;
+        float: left;
+        @media (max-width: 768px){
+         
+            margin-left: 20px;
+            width: 200px;
+            height: 240px;}
+        
+        .img2{
+            float: left;
+            margin-bottom: 487px;
+            margin-right: 60px;
+            @media (max-width: 768px){
+                margin-bottom: 10px;
+            width: 700px;
+              
+            }
+            
+        }
+        h2{
+            padding-top: 30px;
+            font-size: 36px;
+            font-family: "Poppins";
+            color: rgb(16, 36, 43);
+            font-weight: bold;
+            line-height: 1.528;
+          
+        }
+        p{
+            font-size: 15px;
+            font-family: "Poppins";
+            color: rgb(92, 102, 106);
+            line-height: 2;
+            text-align: left;
+          
+        }
+
+        
+        .happy_clients{
+            float: left;
+            padding-bottom: 200px;
+            width: 200px;
+            span{
+                font-size: 25px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: bold;
+                line-height: 0.917;
+              
+            }
+            p{
+                font-size: 16px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: 500;
+                line-height: 0.917;
+                font-weight: 300;
+            
+            }
+            img{
+                float: left;
+                margin-bottom: 100px;
+            }
+            
+        }
+        
+        .awards{
+            padding-left: 50px;
+            float: left;
+            padding-bottom: 200px;
+            width: 200px;
+            span{
+                font-size: 25px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: bold;
+                line-height: 0.917;
+              
+            }
+            p{
+                font-size: 16px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: 500;
+                line-height: 0.917;
+                font-weight: 300;
+            
+            }
+            img{
+                float: left;
+                margin-bottom: 100px;
+            }
+        }
+        
+        .employees{
+            padding-left: 20px;
+            float: left;
+            padding-bottom: 200px;
+            width: 200px;
+            span{
+                font-size: 25px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: bold;
+                line-height: 0.917;
+              
+            }
+            p{
+                font-size: 16px;
+                font-family: "Poppins";
+                color: rgb(16, 36, 43);
+                font-weight: 500;
+                line-height: 0.917;
+                font-weight: 300;
+            
+            }
+            img{
+                float: left;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+.section2{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+
+
+
+.happy_clients{
+    height: 20px;
+    margin-bottom: -100px;
+    
+}
+.awards{
+    height: 20px;
+    margin-bottom: -100px;
+    margin-left: -50px;
+}
+.employees{
+    height: 20px;
+    margin-bottom: -100px;
+    margin-left: -20px;
+}
+}
 }
