@@ -11,7 +11,9 @@
     @media (max-width:768px){
         .conatainer{
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: -250px;
             }
     }
     @media (max-width:768px){
@@ -78,9 +80,31 @@ header {
 
 section {
     .image {
+        display: flex;
+        align-items: center;
+        span{
+            padding-left: 375px;
+            font-size: 52px;
+            font-family: "Poppins";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1.058;
+            -moz-transform: matrix( 1.00026941026665,0,0,1.00194719214892,0,0);
+            -webkit-transform: matrix( 1.00026941026665,0,0,1.00194719214892,0,0);
+            -ms-transform: matrix( 1.00026941026665,0,0,1.00194719214892,0,0);
+
+            @media (max-width: 768px){
+                font-size: 26px;
+            }
+    
+        }
         margin-top: 30px;
         width: 1970px;
         height: 250px;
-        background: #9b9fa0;
+        background-image: url("../img/image.png");
+        @media (max-width: 768px){
+            width: 768px;  
+        }
+
     }
 }

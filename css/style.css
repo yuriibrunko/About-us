@@ -10,7 +10,9 @@
 @media (max-width: 768px) {
   .conatainer {
     display: flex;
-    justify-content: center; } }
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: -250px; } }
 @media (max-width: 768px) {
   header {
     display: flex;
@@ -55,9 +57,27 @@ header {
     display: flex;
     flex-wrap: wrap; } }
 section .image {
+  display: flex;
+  align-items: center;
   margin-top: 30px;
   width: 1970px;
   height: 250px;
-  background: #9b9fa0; }
+  background-image: url("../img/image.png"); }
+  section .image span {
+    padding-left: 375px;
+    font-size: 52px;
+    font-family: "Poppins";
+    color: white;
+    font-weight: bold;
+    line-height: 1.058;
+    -moz-transform: matrix(1.0002694103, 0, 0, 1.0019471921, 0, 0);
+    -webkit-transform: matrix(1.0002694103, 0, 0, 1.0019471921, 0, 0);
+    -ms-transform: matrix(1.0002694103, 0, 0, 1.0019471921, 0, 0); }
+    @media (max-width: 768px) {
+      section .image span {
+        font-size: 26px; } }
+  @media (max-width: 768px) {
+    section .image {
+      width: 768px; } }
 
 /*# sourceMappingURL=style.css.map */
