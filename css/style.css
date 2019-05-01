@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0; }
 
+@media (max-width: 768px) {
+  .conatainer {
+    width: 768px; } }
 .conatainer {
   width: 1970px;
   display: flex;
@@ -81,6 +84,7 @@ section .image {
     -ms-transform: matrix(1.0002694103, 0, 0, 1.0019471921, 0, 0); }
     @media (max-width: 768px) {
       section .image span {
+        width: 500px;
         font-size: 26px;
         margin-left: -220px; } }
   @media (max-width: 768px) {
@@ -102,7 +106,7 @@ section .p3 {
     section .p3 {
       margin-left: 20px;
       width: 200px;
-      height: 240px; } }
+      height: 340px; } }
   section .p3 .img2 {
     float: left;
     margin-bottom: 487px;
@@ -110,7 +114,9 @@ section .p3 {
     @media (max-width: 768px) {
       section .p3 .img2 {
         margin-bottom: 10px;
-        width: 700px; } }
+        height: 10px; }
+        section .p3 .img2 img {
+          height: 0px; } }
   section .p3 h2 {
     padding-top: 30px;
     font-size: 36px;
@@ -344,6 +350,9 @@ section .p4 {
     margin-top: 100px;
     margin-bottom: 100px; }
 
+@media (max-width: 768px) {
+  .line {
+    width: 0px; } }
 .our_team {
   width: 1970px; }
   .our_team h2 {
@@ -514,5 +523,9 @@ footer {
       width: 300px;
       flex-direction: column;
       padding-left: 60px; } }
+
+@media (max-width: 768px) {
+  footer {
+    width: 768px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
 }
+@media (max-width: 768px){
+    .conatainer{
+        width: 768px;
+    }
+}
 .conatainer{
     width: 1970px;
     display: flex;
@@ -100,6 +105,7 @@ section {
             -ms-transform: matrix( 1.00026941026665,0,0,1.00194719214892,0,0);
 
             @media (max-width: 768px){
+                width: 500px;
                 font-size: 26px;
                 margin-left: -220px;
             }
@@ -110,7 +116,7 @@ section {
         height: 250px;
         background-image: url("../img/image.png");
         @media (max-width: 768px){
-            width: 768px;  
+            width:768px;  
         }
 
     }
@@ -129,18 +135,24 @@ section{
         margin-top: 100px;
         float: left;
         @media (max-width: 768px){
-         
+            
             margin-left: 20px;
             width: 200px;
-            height: 240px;}
+            height: 340px;
+          
+       }
         
         .img2{
             float: left;
             margin-bottom: 487px;
             margin-right: 60px;
             @media (max-width: 768px){
-                margin-bottom: 10px;
-            width: 700px;
+            margin-bottom: 10px;
+                height: 10px;
+              img{
+                
+                height: 0px;
+            }
               
             }
             
@@ -469,6 +481,11 @@ section{
         margin-bottom: 100px;
     }
 }
+@media (max-width: 768px){
+    .line{
+        width: 0px;
+    }
+}
 
 //section6 begin
 .our_team {
@@ -714,4 +731,10 @@ footer {
             padding-left: 60px;
         }
     }  
+}
+
+@media (max-width: 768px){
+    footer{
+            width: 768px;
+    }
 }
