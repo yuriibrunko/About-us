@@ -164,6 +164,7 @@ section{
 
         
         .happy_clients{
+           
             float: left;
             padding-bottom: 200px;
             width: 200px;
@@ -250,6 +251,14 @@ section{
 }
 @media (max-width: 768px){
 .section2{
+    span :nth-child(3){
+        margin-right: 1000px;
+        padding-right: 1000px;
+    }
+    span{
+        display: block;
+
+    }
 margin-top: 20px;
 display: flex;
 flex-direction: column;
@@ -351,6 +360,8 @@ section{
     }
  }
 }
+
+// section6 begin
 .mis-vis {
     width: 1970px;
     display: flex;
@@ -398,6 +409,27 @@ section{
         }
     }
 }
+// section6 media
+@media (max-width: 768px){
+    
+    .mis-vis{
+        margin-top: 318px;
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .vision{
+            margin-left: -180px;
+        }
+        .mision{
+            margin-left: -40px;
+        }
+    }
+}
+
+// section6 end
+
+//Button beging
 .but {
     display: flex;
     justify-content: center;
@@ -415,6 +447,15 @@ section{
         font-family: "Poppins";
     }
 }
+@media (max-width: 768px){
+    .but{
+        width: 270px;
+        margin-left: 20px;
+    }
+}
+
+//Button end
+
 .line {
     display: flex;
     justify-content: center;
@@ -429,6 +470,7 @@ section{
     }
 }
 
+//section6 begin
 .our_team {
     width: 1970px;
     h2 {
@@ -449,6 +491,22 @@ section{
         margin-bottom: 60px;
     }
 }
+
+@media (max-width: 768px){
+    .our_team{
+        width: 768px;
+         .img_block{
+          display: flex;
+          flex-direction: column;      
+          img{
+            margin-bottom: 10px
+          } 
+        
+        }
+        }
+}
+//section6 end
+
 
 // Black part
 footer {
