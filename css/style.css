@@ -259,5 +259,86 @@ section .p4 {
       color: #5c666a;
       line-height: 2;
       text-align: center; } }
+.mis-vis {
+  width: 1970px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mis-vis .mision img {
+    position: absolute;
+    transform: translate(-150%, 30%); }
+  .mis-vis .mision h2 {
+    font-size: 36px;
+    font-family: "Poppins";
+    color: #10242b;
+    font-weight: bold; }
+  .mis-vis .mision p {
+    width: 500px;
+    position: relative;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: #5c666a;
+    margin-right: 70px; }
+  .mis-vis .vision img {
+    position: absolute;
+    transform: translate(0%, 30%); }
+  .mis-vis .vision h2 {
+    font-size: 36px;
+    font-family: "Poppins";
+    color: #10242b;
+    font-weight: bold;
+    margin-left: 65px; }
+  .mis-vis .vision p {
+    width: 500px;
+    position: relative;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: #5c666a;
+    margin-left: 70px; }
+
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1970px;
+  margin-top: 60px; }
+  .but button {
+    width: 150px;
+    height: 50px;
+    background: #67b930;
+    border-radius: 5%;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Poppins"; }
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1970px; }
+  .line div {
+    width: 1170px;
+    height: 0.9px;
+    background: #dee6ec;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+
+.our_team {
+  width: 1970px; }
+  .our_team h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Poppins";
+    color: #10242b;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .our_team .img_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px; }
+    .our_team .img_block img {
+      margin-right: 30px; }
 
 /*# sourceMappingURL=style.css.map */
