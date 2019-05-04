@@ -20,8 +20,8 @@ footer {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding-top: 50px;
-            padding-left: 0px;
+            margin-top: 50px;
+            margin-left: 27px;
 
             h1 {
                 font-family: 'Poppins', sans-serif;
@@ -87,7 +87,7 @@ footer {
             .footer-form {
                 border: none;
                 background: #252525;
-                width: 200px;
+                width: 170px;
                 height: 50px;
                 padding-left: 45px;
             }
@@ -146,11 +146,12 @@ footer {
         width: 100%;
         height: 5px;
         border-top: 1px solid gray;
+        display: flex;
+        justify-content: center;
         // Надпис внизу
         p {
             font-family: 'Poppins', sans-serif;
             font-size: 14px;
-            padding-left: 39%;
             font-weight: 400;
             margin: 20px 0;
             color: grey;            
@@ -161,35 +162,21 @@ footer {
             width: 100%;
         }
         .container-footer {
-            width: 1170px;
+            width: 100%;
         }
     }
     @media all and (max-width: 1199px) and (min-width: 992px) {
-        footer {
-            width: 90%;
-        }
-        .container-footer {
-            width: 1050px;
-        }
         .box-bottom {
             margin-right: 20px;
             margin-left: 8px;
         }
     }
-    @media all and (max-width: 991px) and (min-width: 768px) {
-        footer {
-            width: 70%;
-        }
-        .container-footer {
-            width: 900px;
-        }
-    }
+  
     @media all and (max-width: 767px) and (min-width: 526px) {
         footer {
             width: 50%;
         }
         .container-footer {
-            width: 600px;
             flex-direction: column;
             padding-left: 60px;
         }
@@ -208,6 +195,8 @@ footer {
 
 @media (max-width: 768px){
     footer{
-            width: 768px;
+            width: 100%;
     }
 }
+
+
