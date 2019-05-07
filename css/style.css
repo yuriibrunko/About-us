@@ -57,17 +57,17 @@ header {
   .container .contt {
     width: 100%;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: flex; }
     .container .contt .image {
-      width: 50%;
+      width: 100vw;
       height: 600px;
       background: url(../img/photo.jfif);
       background-repeat: no-repeat;
       background-position: center; }
     .container .contt .text {
-      width: 50%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: start;
@@ -146,22 +146,11 @@ header {
 
 @media (max-width: 768px) {
   .satisfaction {
-    margin-top: 105vh; } }
-@media (max-width: 572px) {
-  .satisfaction {
-    margin-top: 120vh; } }
+    margin-top: 80vh; } }
 @media (max-width: 454px) {
   .satisfaction {
-    margin-top: 185vh;
-    height: 550px; } }
-@media (max-width: 354px) {
-  .satisfaction {
-    margin-top: 210vh;
-    height: 600px; } }
-@media (max-width: 310px) {
-  .satisfaction {
-    margin-top: 220vh;
-    height: 600px; } }
+    margin-top: 120vh;
+    height: 580px; } }
 .mis-vis {
   width: 100%;
   display: flex;
@@ -244,7 +233,7 @@ header {
 
 .col {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 80px; }
   .col .box {
@@ -253,6 +242,12 @@ header {
     margin: 10px;
     background: linear-gradient(to bottom, #9b9fa0, #304046); }
 
+@media (max-width: 999px) {
+  .col {
+    display: flex;
+    flex-wrap: wrap; }
+    .col .box {
+      margin: 50px; } }
 footer {
   width: 100%;
   background: #000;
@@ -395,5 +390,3 @@ footer {
     width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
-
-
