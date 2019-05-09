@@ -204,15 +204,21 @@ header {
         margin-top: 50vh;
     }
 }
-@media (max-width:454px) {
+
+@media (max-width:454px) and (min-width:437px){
     .satisfaction {
-        margin-top: 70vh;
+        margin-top: 63vh;
         height: 580px;
     }
 }
-@media (max-width:380px) {
+@media (max-width:437px) {
     .satisfaction {
-        margin-top: 80vh;
+        margin-top: 70vh;
+    }
+}
+@media (max-width:365px) {
+    .satisfaction {
+        margin-top: 82vh;
     }
 }
 
@@ -272,11 +278,11 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         .mision {
-            width: 60%;
+            width: 100%;
         }
         .vision {
             margin-top: 40px;
-            width: 60%;
+            width: 100%;
         }
     }
 }
