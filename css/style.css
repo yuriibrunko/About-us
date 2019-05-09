@@ -104,7 +104,7 @@ header {
       .contt .text h2 {
         margin: 0 auto; }
       .contt .text p {
-        text-align: justify; }
+        text-align: center; }
       .contt .text .icon {
         margin-top: 40px; }
         .contt .text .icon .happy {
@@ -153,18 +153,18 @@ header {
 
 @media (max-width: 768px) {
   .satisfaction {
-    margin-top: 50vh; } }
+    margin-top: 40vh; } }
 @media (max-width: 454px) and (min-width: 437px) {
   .satisfaction {
-    margin-top: 63vh;
+    margin-top: 46vh;
     height: 580px; } }
 @media (max-width: 437px) {
   .satisfaction {
-    margin-top: 82vh;
+    margin-top: 60vh;
     height: 610px; } }
 @media (max-width: 365px) {
   .satisfaction {
-    margin-top: 82vh; } }
+    margin-top: 65vh; } }
 .mis-vis {
   width: 80%;
   display: flex;
