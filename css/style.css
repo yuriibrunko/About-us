@@ -160,7 +160,8 @@ header {
     height: 580px; } }
 @media (max-width: 437px) {
   .satisfaction {
-    margin-top: 70vh; } }
+    margin-top: 82vh;
+    height: 610px; } }
 @media (max-width: 365px) {
   .satisfaction {
     margin-top: 82vh; } }
