@@ -153,18 +153,18 @@ header {
 
 @media (max-width: 768px) {
   .satisfaction {
-    margin-top: 77vh; } }
+    margin-top: 405px; } }
 @media (max-width: 454px) and (min-width: 437px) {
   .satisfaction {
-    margin-top: 82vh;
+    margin-top: 455px;
     height: 580px; } }
 @media (max-width: 437px) {
   .satisfaction {
-    margin-top: 102vh;
+    margin-top: 550px;
     height: 610px; } }
 @media (max-width: 365px) {
   .satisfaction {
-    margin-top: 120vh; } }
+    margin-top: 650px; } }
 .mis-vis {
   width: 80%;
   display: flex;
