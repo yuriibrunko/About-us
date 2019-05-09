@@ -99,7 +99,12 @@ header {
     flex-wrap: wrap;
     justify-content: center; }
     .contt .text {
-      margin-top: 40px; }
+      margin-top: 40px;
+      width: 80%; }
+      .contt .text h2 {
+        margin: 0 auto; }
+      .contt .text p {
+        text-align: justify; }
       .contt .text .icon {
         margin-top: 40px; }
         .contt .text .icon .happy {
@@ -116,7 +121,8 @@ header {
   margin-bottom: 50px;
   text-align: center;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
   .satisfaction div {
     margin-top: 10px;
     width: 100%;
@@ -128,6 +134,7 @@ header {
       font-family: 'Poppins', sans-serif;
       font-size: 40px; }
   .satisfaction p {
+    width: 80%;
     text-align: center;
     color: #8c9499;
     font-family: 'Poppins', sans-serif;
@@ -146,16 +153,20 @@ header {
 
 @media (max-width: 768px) {
   .satisfaction {
-    margin-top: 80vh; } }
+    margin-top: 50vh; } }
 @media (max-width: 454px) {
   .satisfaction {
-    margin-top: 120vh;
+    margin-top: 70vh;
     height: 580px; } }
+@media (max-width: 380px) {
+  .satisfaction {
+    margin-top: 80vh; } }
 .mis-vis {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-left: 13%; }
   .mis-vis .mision img {
     position: absolute;
     transform: translate(-150%, 30%);
@@ -222,7 +233,7 @@ header {
   width: 100%; }
   .line div {
     width: 100%;
-    height: 0.9px;
+    height: 1px;
     background: #dee6ec;
     margin-top: 100px;
     margin-bottom: 100px; }
