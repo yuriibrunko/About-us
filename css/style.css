@@ -10,7 +10,7 @@
 
 header {
   margin-top: 10px;
-  width: 62.4365%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -67,19 +67,20 @@ header {
     background-image: url(../img/tow.jpg);
     background-position: center; }
   .container .contt {
-    width: 62.4365%;
+    width: 70%;
     height: 600px;
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex; }
     .container .contt .image {
-      width: 100vw;
+      width: 50%;
       height: 600px;
+      margin: 0 auto;
       background: url(../img/photo.jfif);
       background-repeat: no-repeat;
       background-position: center; }
     .container .contt .text {
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-wrap: wrap;
       justify-content: start;
@@ -90,14 +91,14 @@ header {
         color: #10242b;
         font-size: 34px; }
       .container .contt .text p {
-        font-family: 'Poppins', sans-serif; }
+        font-family: 'Poppins', sans-serif;
+        text-align: justify; }
       .container .contt .text .icon {
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        margin-left: 10px; }
+        justify-content: space-around; }
         .container .contt .text .icon .happy {
-          margin-left: 30px;
+          margin-left: 60px;
           position: relative; }
           .container .contt .text .icon .happy h3 {
             font-weight: bold; }
@@ -118,9 +119,18 @@ header {
       .contt .text p {
         text-align: center; }
       .contt .text .icon {
-        margin-top: 40px; }
+        display: flex; }
         .contt .text .icon .happy {
-          padding-left: 40px; } }
+          padding-left: 40px; }
+        .contt .text .icon .happy:nth-child(2) {
+          margin-left: 20px; }
+        .contt .text .icon .happy:nth-child(3) {
+          margin-left: 40px; } }
+@media (max-width: 999px) {
+  .icon {
+    flex-wrap: wrap; }
+    .icon .happy {
+      margin-top: 30px; } }
 @media (max-width: 454px) {
   .icon {
     flex-wrap: wrap; }
@@ -175,18 +185,32 @@ header {
 
 @media (max-width: 768px) {
   .satisfaction {
-    margin-top: 405px; } }
+    margin-top: 650px;
+    height: 525px; } }
+@media (max-width: 667px) {
+  .satisfaction {
+    margin-top: 780px;
+    height: 525px; } }
+@media (max-width: 588px) {
+  .satisfaction {
+    margin-top: 1020px;
+    height: 525px; } }
 @media (max-width: 454px) and (min-width: 437px) {
   .satisfaction {
-    margin-top: 455px;
+    margin-top: 1070px;
     height: 580px; } }
 @media (max-width: 437px) {
   .satisfaction {
-    margin-top: 550px;
-    height: 610px; } }
+    margin-top: 1145px;
+    height: 710px; } }
 @media (max-width: 365px) {
   .satisfaction {
-    margin-top: 650px; } }
+    margin-top: 1325px;
+    height: 750px; } }
+@media (max-width: 324px) {
+  .satisfaction {
+    margin-top: 1320px;
+    height: 800px; } }
 .fix4 {
   flex-wrap: wrap;
   display: flex;
@@ -194,7 +218,7 @@ header {
   justify-content: center; }
 
 .mis-vis {
-  width: 62.4365%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center; }
