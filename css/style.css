@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0; }
 
+.slick-list {
+  width: 100%; }
+
 .fix1 {
   flex-wrap: wrap;
   display: flex;
@@ -297,6 +300,9 @@ header {
   text-align: center;
   font-family: 'Poppins', sans-serif; }
 
+.slick-track {
+  width: 80%; }
+
 .col {
   display: flex;
   flex-wrap: nowrap;
@@ -314,7 +320,10 @@ header {
     display: flex;
     flex-wrap: wrap; }
     .col .box {
-      margin: 50px; } }
+      margin: 20px; } }
+.slick-track {
+  width: 100%; }
+
 footer {
   width: 100%;
   background: #000;
