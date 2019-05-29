@@ -415,6 +415,72 @@ header {
         height: 331px;
         margin: 10px;
         background: linear-gradient(to bottom , #9b9fa0, #304046);
+        .img {
+            color: #fff;
+            text-align: center;
+            margin-top: 50%;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        @media (max-width:500px) {
+            .img {
+                margin-top: 30%;
+            }
+        }
+        @media (min-width:1700px) {
+            .img {
+                margin-top: 30%;
+            }
+        }
+        .name {
+            color: #fff;
+            margin-top: 40%;
+        }
+        @media (max-width:768px) {
+            .name {
+                margin-top: 30%;
+            }
+        }
+        @media (max-width:600px) {
+            .name {
+                margin-top: 55%;
+            }
+        }
+        @media (max-width:500px) {
+            .name {
+                margin-top: 30%;
+            }
+        }
+        @media (max-width: 400px) {
+            .name {
+                margin-top: 50%;
+            }
+        }
+        @media (min-width:1350px) {
+            .name {
+                margin-top: 30%;
+            }
+        }
+        @media (min-width:1500px) {
+            .name {
+                margin-top: 20%;
+            }
+        }
+        @media (min-width:1700px) {
+            .name {
+                margin-top: 35%;
+            }
+        }
+        @media (min-width:1800px) {
+            .name {
+                margin-top: 30%;
+            }
+        }
+        @media (min-width:2000px) {
+            .name {
+                margin-top: 25%;
+            }
+        }
     }
 }
 @media (max-width: 999px) {

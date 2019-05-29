@@ -314,6 +314,48 @@ header {
     height: 331px;
     margin: 10px;
     background: linear-gradient(to bottom, #9b9fa0, #304046); }
+    .col .box .img {
+      color: #fff;
+      text-align: center;
+      margin-top: 50%;
+      text-transform: uppercase;
+      font-size: 20px; }
+    @media (max-width: 500px) {
+      .col .box .img {
+        margin-top: 30%; } }
+    @media (min-width: 1700px) {
+      .col .box .img {
+        margin-top: 30%; } }
+    .col .box .name {
+      color: #fff;
+      margin-top: 40%; }
+    @media (max-width: 768px) {
+      .col .box .name {
+        margin-top: 30%; } }
+    @media (max-width: 600px) {
+      .col .box .name {
+        margin-top: 55%; } }
+    @media (max-width: 500px) {
+      .col .box .name {
+        margin-top: 30%; } }
+    @media (max-width: 400px) {
+      .col .box .name {
+        margin-top: 50%; } }
+    @media (min-width: 1350px) {
+      .col .box .name {
+        margin-top: 30%; } }
+    @media (min-width: 1500px) {
+      .col .box .name {
+        margin-top: 20%; } }
+    @media (min-width: 1700px) {
+      .col .box .name {
+        margin-top: 35%; } }
+    @media (min-width: 1800px) {
+      .col .box .name {
+        margin-top: 30%; } }
+    @media (min-width: 2000px) {
+      .col .box .name {
+        margin-top: 25%; } }
 
 @media (max-width: 999px) {
   .col {

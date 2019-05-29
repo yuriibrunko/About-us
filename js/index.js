@@ -13,6 +13,14 @@ $('.col').slick({
   dots: true,
   responsive: [
     {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        arrows: false
+      }
+    },
+    {
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
